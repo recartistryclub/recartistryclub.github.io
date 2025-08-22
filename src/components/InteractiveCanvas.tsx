@@ -216,7 +216,7 @@ const InteractiveCanvas = () => {
   return (
     <canvas
       ref={canvasRef}
-      className={`fixed inset-0 pointer-events-none z-0 transition-opacity duration-1000 ${
+      className={`fixed inset-0 pointer-events-none z-10 transition-opacity duration-1000 ${
         isLoaded ? 'opacity-100' : 'opacity-0'
       }`}
       style={{ mixBlendMode: 'screen' }}

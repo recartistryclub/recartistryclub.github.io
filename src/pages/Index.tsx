@@ -5,13 +5,17 @@ import Events from '../components/Events';
 import Gallery from '../components/Gallery';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import ScrollCanvas from '../components/ScrollCanvas';
 import InteractiveCanvas from '../components/InteractiveCanvas';
 
 const Index = () => {
   return (
     <div className="min-h-screen relative">
+      {/* First layer: Scroll-responsive paint palette background */}
+      <ScrollCanvas />
+      {/* Second layer: Interactive mouse-responsive effects */}
       <InteractiveCanvas />
-      <div className="relative z-10">
+      <div className="relative z-20">
         <Navbar />
         <Hero />
         <About />
