@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import ScrollCanvas from '../components/ScrollCanvas';
 import InteractiveCanvas from '../components/InteractiveCanvas';
 
+
 const Index = () => {
   return (
     <div className="min-h-screen relative">
