@@ -10,6 +10,7 @@ const Hero: React.FC = () => {
       {/* Background Video */}
       <BackgroundVideo src="/videos/artistry-portrait.mp4" />
 
+
       {/* Overlay Content */}
       <div className="relative z-10 flex items-center justify-center h-full bg-black/40">
       

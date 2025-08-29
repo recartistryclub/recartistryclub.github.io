@@ -8,40 +8,83 @@ const Events = () => {
 
   const events = [
     {
-      date: "2024-03-15",
-      title: "Digital Art Workshop",
-      description: "Learn advanced digital painting techniques with industry professionals.",
+      date: "2024-04-14",
+      title: "Draw with Comali",
+      description: "Draw With Comali was a vibrant and engaging event that seamlessly combined creativity,entertainment, and teamwork",
       type: "Workshop",
-      status: "upcoming"
+      status: "Completed"
     },
     {
-      date: "2024-03-08",
-      title: "Spring Art Exhibition",
-      description: "Showcase of member artworks celebrating the arrival of spring.",
+      date: "2024-09-14",
+      title: "ARTSY’24",
+      description: "Artsy’24’s Art Exhibition, a Signature Event transformed the Basketball Court and Hut Café into a vibrant hub of creativity",
       type: "Exhibition",
-      status: "featured"
+      status: "Completed"
     },
     {
-      date: "2024-02-28",
-      title: "Collaborative Mural Project",
-      description: "Community mural painting in downtown arts district.",
+      date: "2024-09-14",
+      title: "INVESTITURE CEREMONY",
+      description: "The Badge and Certificate Investiture Ceremony celebrating the Club Core Members, Board Members, and recognizing Old Board Members as Mentors.",
       type: "Community",
       status: "completed"
     },
     {
-      date: "2024-02-20",
-      title: "Artist Talk Series",
-      description: "Guest speaker discussing contemporary art movements.",
-      type: "Talk",
+      date: "2024-10-09",
+      title: "World Mental Health Day",
+      description: "Organized a vibrant Signature Event at the Lanes of REC to promote mental wellness and self-care.",
+      type: "Event",
       status: "completed"
     },
     {
-      date: "2024-04-05",
-      title: "Mixed Media Masterclass",
-      description: "Explore combining traditional and digital art techniques.",
-      type: "Masterclass",
-      status: "upcoming"
+      date: "2024-10-07",
+      title: "Pictopia",
+      description: "Pictopia, an exciting and interactive art-based game that brought together creativity, teamwork, and fun",
+      type: "Event",
+      status: "completed"
+    },
+    {
+      date: "2024-12-01",
+      title: "Art Odyssey EP 1 DIGITAL ART",
+      description: "The workshop introduced students to the fundamentals of digital art, covering key concepts and techniques.",
+      type: "Workshop",
+      status: "completed"
+    },
+    {
+      date: "2025-01-26",
+      title: "Swarang",
+      description: "The Artistry Club, in collaboration with the Leo Club, organized SWARANG, a special event at a children’s home to celebrate the 76th Republic Day.",
+      type: "Event",
+      status: "completed"
+    },
+    {
+      date: "2025-02-09",
+      title: "ART ODYSSEY EPISODE 2 - MANDALA ART",
+      description: "The Artistry Club of REC successfully conducted Episode 2 of Art Odyssey, an engaging Mandala Art Workshop",
+      type: "Workshop",
+      status: "completed"
+    },
+    {
+      date: "2025-02-16",
+      title: "ART ODYSSEY EP-3 COMIC SKETCH",
+      description: "The Artistry Club of REC successfully conducted Episode 3 of Art Odyssey, an engaging Comic Sketch Workshop",
+      type: "Workshop",
+      status: "completed"
+    },
+    {
+      date: "2025-03-02",
+      title: "ART ODYSSEY EP-4 CROCHET",
+      description: "The Artistry Club of REC successfully conducted Episode 4 of Art Odyssey, an engaging Crochet Workshop",
+      type: "Workshop",
+      status: "completed"
+    },
+    {
+      date: "2025-03-08",
+      title: "AARADHYA",
+      description: "The Artistry Club , in collaboration with the Leo Club , celebrated Women’s Day by honoring the women faculty members for their invaluable contributions",
+      type: "Community",
+      status: "completed"
     }
+
   ];
 
   const getStatusColor = (status: string) => {
@@ -64,7 +107,7 @@ const Events = () => {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6 gradient-text">
-            Upcoming Events
+            Events
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Join us for workshops, exhibitions, and community events that celebrate creativity and artistic expression.
