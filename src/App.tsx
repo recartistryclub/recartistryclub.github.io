@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Events from "./components/Events";
 import EventDetail from "./components/EventDetail";
+import UpcomingEvents from "./components/UpcomingEvents"; // ✅ Import
 
 // ⬅️ Query client
 const queryClient = new QueryClient();
@@ -22,15 +23,13 @@ const App = () => {
         <BrowserRouter>
           {/* ✅ Background & global effects wrapper */}
           <div className="relative min-h-screen w-full bg-background overflow-hidden">
-            {/* 🔥 Keep your 3D showcase background/effects */}
-            <div className="absolute inset-0 -z-10">
-              {/* If your Index has 3D canvas/effects, you can refactor them into a Background.tsx
-                  and include here so it persists across routes */}
-            </div>
+            {/* 🔥 Background/effects */}
+            <div className="absolute inset-0 -z-10"></div>
 
             {/* Routes */}
             <Routes>
               <Route path="/" element={<Index />} />
+              <Route path="/upcoming-events" element={<UpcomingEvents />} /> {/* ✅ */}
               <Route path="/events" element={<Events />} />
               <Route path="/events/:title" element={<EventDetail />} />
               <Route path="*" element={<NotFound />} />
