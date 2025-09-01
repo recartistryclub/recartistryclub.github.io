@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { Link } from "react-router-dom"; // ✅ added import
 
 const Events = () => {
   const ref = useRef(null);
@@ -84,7 +85,6 @@ const Events = () => {
       type: "Community",
       status: "completed"
     }
-
   ];
 
   const getStatusColor = (status: string) => {
@@ -129,33 +129,36 @@ const Events = () => {
               >
                 {/* Content */}
                 <div className={`lg:w-1/2 ${index % 2 === 0 ? 'lg:text-right lg:pr-8' : 'lg:text-left lg:pl-8'} mb-6 lg:mb-0`}>
-                  <motion.div
-                    whileHover={{ scale: 1.02 }}
-                    className="glass-card hover-lift"
-                  >
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="text-sm font-medium px-3 py-1 rounded-full bg-gradient-secondary text-secondary-foreground">
-                        {event.type}
-                      </span>
-                      <span className={`text-sm font-medium ${getStatusColor(event.status)}`}>
-                        {event.status.charAt(0).toUpperCase() + event.status.slice(1)}
-                      </span>
-                    </div>
-                    <h3 className="text-2xl font-bold mb-3 text-foreground">
-                      {event.title}
-                    </h3>
-                    <p className="text-muted-foreground mb-4">
-                      {event.description}
-                    </p>
-                    <div className="text-primary font-medium">
-                      {new Date(event.date).toLocaleDateString('en-US', {
-                        weekday: 'long',
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric'
-                      })}
-                    </div>
-                  </motion.div>
+                  {/* ✅ Wrap entire card in Link */}
+                  <Link to={`/events/${encodeURIComponent(event.title)}`}>
+                    <motion.div
+                      whileHover={{ scale: 1.02 }}
+                      className="glass-card hover-lift cursor-pointer"
+                    >
+                      <div className="flex items-center justify-between mb-3">
+                        <span className="text-sm font-medium px-3 py-1 rounded-full bg-gradient-secondary text-secondary-foreground">
+                          {event.type}
+                        </span>
+                        <span className={`text-sm font-medium ${getStatusColor(event.status)}`}>
+                          {event.status.charAt(0).toUpperCase() + event.status.slice(1)}
+                        </span>
+                      </div>
+                      <h3 className="text-2xl font-bold mb-3 text-foreground">
+                        {event.title}
+                      </h3>
+                      <p className="text-muted-foreground mb-4">
+                        {event.description}
+                      </p>
+                      <div className="text-primary font-medium">
+                        {new Date(event.date).toLocaleDateString('en-US', {
+                          weekday: 'long',
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric'
+                        })}
+                      </div>
+                    </motion.div>
+                  </Link>
                 </div>
 
                 {/* Timeline dot */}
