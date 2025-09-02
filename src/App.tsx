@@ -29,7 +29,7 @@ const App = () => {
             {/* Routes */}
             <Routes>
               <Route path="/" element={<Index />} />
-              <Route path="/upcoming-events" element={<UpcomingEvents />} /> {/* ✅ */}
+              <Route path="/upcoming-events" element={<UpcomingEvents />} />
               <Route path="/events" element={<Events />} />
               <Route path="/events/:title" element={<EventDetail />} />
               <Route path="*" element={<NotFound />} />

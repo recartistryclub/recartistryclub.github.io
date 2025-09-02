@@ -10,9 +10,9 @@ const Events = () => {
   const events = [
     {
       date: "2024-04-14",
-      title: "Draw with Comali",
-      description: "Draw With Comali was a vibrant and engaging event that seamlessly combined creativity,entertainment, and teamwork",
-      type: "Workshop",
+      title: "Madras Day Art Contest",
+      description: "The Madras Day Art Contest celebrated the rich cultural heritage, history, and spirit of Chennai through the creative expressions of young artists. ",
+      type: "Event",
       status: "Completed"
     },
     {
@@ -84,7 +84,22 @@ const Events = () => {
       description: "The Artistry Club , in collaboration with the Leo Club , celebrated Women’s Day by honoring the women faculty members for their invaluable contributions",
       type: "Community",
       status: "completed"
-    }
+    },
+    {
+      date: "2025-03-13",
+      title: "Ethnic Day 2025",
+      description: "the students of Rajalakshmi Engineering College celebrated Ethnic Day with great enthusiasm. Dressed in colorful ethnic wear, everyone showcased their traditional outfits, enjoyed the festive atmosphere, and captured memorable moments with friends through lots of pictures. The day was filled with joy, laughter, and a strong sense of cultural pride",
+      type: "Community",
+      status: "completed"
+    },
+    {
+      date: "2025-04-14",
+      title: "Draw with Comali2",
+      description: "Draw With Comali was a vibrant and engaging event that seamlessly combined creativity,entertainment, and teamwork",
+      type: "Workshop",
+      status: "Completed"
+    },
+
   ];
 
   const getStatusColor = (status: string) => {

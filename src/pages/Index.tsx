@@ -7,6 +7,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import ScrollCanvas from '../components/ScrollCanvas';
 import InteractiveCanvas from '../components/InteractiveCanvas';
+import UpcomingEvents from '../components/UpcomingEvents';
 
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
         <Navbar />
         <Hero />
         <About />
+        <UpcomingEvents />
         <Events />
         <Gallery />
         <Contact />

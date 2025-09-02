@@ -1,18 +1,16 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
 const upcomingEvents = [
   {
-    title: "Investiture Ceremony 2024",
-    description:
-      "A prestigious event where leadership roles are handed over to deserving students, marking a new beginning of responsibility and service.",
-    images: ["/images/invest1.jpg", "/images/invest2.jpg"],
-  },
-  {
-    title: "Artistry Cultural Fest",
-    description:
-      "An explosion of creativity, talent, and performances by our vibrant student community.",
-    images: ["/images/cultural1.jpg", "/images/cultural2.jpg"],
+    title: "Artsy`25",
+    description: `✨ Artsy’25 is here to welcome a new wave of creativity and talent!
+🎨 A grand showcase of art, imagination, and innovation awaits you.
+📍 From sketches to origami, mandalas to modern art – your canvas has no limits.
+🌟 Step in, express yourself, and let your artistry inspire the community.
+💫 Join us as Artsy’25 becomes the stage for your unique talent and vision!`,
+    image: "/images/Upcoming events/artsy25.jpg", // ✅ Correct path (public/images)
+    formLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScLxdqSlBe5-rMlo_4JnBgL9hZN212rwFwdQCwmXifmEGItjQ/viewform?usp=dialog",
   },
 ];
 
@@ -26,40 +24,41 @@ const UpcomingEvents = () => {
 
       {/* 🌟 Page Content */}
       <div className="container mx-auto px-6 py-20">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-12 text-center">
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-5xl gradient-text">
           Upcoming Events
         </h1>
 
-        <div className="grid md:grid-cols-2 gap-10">
+        <div className="space-y-12">
           {upcomingEvents.map((event, index) => (
             <motion.div
               key={index}
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 200 }}
-              className="p-6 bg-white/10 rounded-2xl shadow-lg backdrop-blur-lg border border-white/20"
+              className="grid md:grid-cols-2 items-center gap-10 p-6 bg-white/10 rounded-2xl shadow-lg backdrop-blur-lg border border-white/20"
             >
-              <h2 className="text-2xl font-bold mb-3">{event.title}</h2>
-              <p className="text-sm opacity-80 mb-4">{event.description}</p>
+              {/* Left Side - Content */}
+              <div>
+                <h2 className="text-2xl font-bold mb-3">{event.title}</h2>
+                <p className="text-sm opacity-80 mb-6">{event.description}</p>
 
-              {/* Images */}
-              <div className="grid grid-cols-2 gap-3 mb-4">
-                {event.images.map((img, i) => (
-                  <img
-                    key={i}
-                    src={img}
-                    alt={`${event.title}-${i}`}
-                    className="rounded-xl object-cover h-32 w-full"
-                  />
-                ))}
+                <a
+                  href={event.formLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-5 py-3 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-medium hover:opacity-90 transition"
+                >
+                  Register
+                </a>
               </div>
 
-              {/* Link */}
-              <Link
-                to={`/events/${encodeURIComponent(event.title)}`}
-                className="inline-block mt-2 px-4 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-medium hover:opacity-90 transition"
-              >
-                View Details
-              </Link>
+              {/* Right Side - Instagram Sized Image */}
+              <div className="flex justify-center">
+                <img
+                  src={event.image}
+                  alt={event.title}
+                  className="rounded-xl object-cover w-[350px] h-[350px] md:w-[400px] md:h-[400px]"
+                />
+              </div>
             </motion.div>
           ))}
         </div>

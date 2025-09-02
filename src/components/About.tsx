@@ -44,14 +44,14 @@ const About = () => {
 
 
       {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-black/30 -z-10"></div>
+      <div className="absolute inset-0 -z-10"></div>
 
       {/* Content */}
       <div
         ref={ref}
         className="relative z-10 container mx-auto px-6 text-white"
       >
-        <h2 className="text-5xl md:text-6xl font-bold mb-8">About Us</h2>
+        <h2 className="text-5xl md:text-6xl font-bold mb-6 gradient-text text-center">About Us</h2>
         <p className="text-xl mb-12 max-w-3xl">
           Artistry Club is a vibrant community where creativity knows no bounds. We
           bring together artists, designers, and creative minds to explore, learn,
