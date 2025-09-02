@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundVideo from "./BackgroundVideo";
+import BackgroundVideo from "./BackGroundVideo";
 
 const Hero: React.FC = () => {
   return (

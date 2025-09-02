@@ -9,7 +9,7 @@ const Events = () => {
 
   const events = [
     {
-      date: "2024-04-14",
+      date: "2024-08-25",
       title: "Madras Day Art Contest",
       description: "The Madras Day Art Contest celebrated the rich cultural heritage, history, and spirit of Chennai through the creative expressions of young artists. ",
       type: "Event",
@@ -37,7 +37,14 @@ const Events = () => {
       status: "completed"
     },
     {
-      date: "2024-10-07",
+      date: "2024-10-12",
+      title: "Inkspire",
+      description: "Inkspire, hosted by the REC Artistry Club every October, is a vibrant platform that celebrates creativity and showcases student talent across diverse art forms.",
+      type: "Event",
+      status: "completed"
+    },
+    {
+      date: "2024-11-07",
       title: "Pictopia",
       description: "Pictopia, an exciting and interactive art-based game that brought together creativity, teamwork, and fun",
       type: "Event",
@@ -45,7 +52,7 @@ const Events = () => {
     },
     {
       date: "2024-12-01",
-      title: "Art Odyssey EP 1 DIGITAL ART",
+      title: "Art Odyssey Season 1 ",
       description: "The workshop introduced students to the fundamentals of digital art, covering key concepts and techniques.",
       type: "Workshop",
       status: "completed"
@@ -58,24 +65,10 @@ const Events = () => {
       status: "completed"
     },
     {
-      date: "2025-02-09",
-      title: "ART ODYSSEY EPISODE 2 - MANDALA ART",
-      description: "The Artistry Club of REC successfully conducted Episode 2 of Art Odyssey, an engaging Mandala Art Workshop",
-      type: "Workshop",
-      status: "completed"
-    },
-    {
-      date: "2025-02-16",
-      title: "ART ODYSSEY EP-3 COMIC SKETCH",
-      description: "The Artistry Club of REC successfully conducted Episode 3 of Art Odyssey, an engaging Comic Sketch Workshop",
-      type: "Workshop",
-      status: "completed"
-    },
-    {
-      date: "2025-03-02",
-      title: "ART ODYSSEY EP-4 CROCHET",
-      description: "The Artistry Club of REC successfully conducted Episode 4 of Art Odyssey, an engaging Crochet Workshop",
-      type: "Workshop",
+      date: "2025-02-23",
+      title: "We Sketch Season 2 Episode 1",
+      description: "WeSketch Season 2, Episode 1, at Marina Beach’s Labour Statue, united students and Urban Sketchers Chennai for a lively outdoor sketching experience capturing the essence of the surroundings.",
+      type: "Event",
       status: "completed"
     },
     {
@@ -93,10 +86,32 @@ const Events = () => {
       status: "completed"
     },
     {
+      date: "2025-03-22",
+      title: "Pennoviyam",
+      description: "Pennoviyam, organized by the Artistry Club with Yaazh Tamil Mandram, celebrated Women’s Day by showcasing artworks on iconic women from Tamil literature through a vibrant exhibition at the Hut Café.",
+      type: "Community",
+      status: "completed"
+    },
+    {
+      date: "2025-04-05",
+      title: "We Sketch Season 2 Episode 2",
+      description: "WeSketch Season 2, Episode 1, held at Marina Beach with Urban Sketchers Chennai, brought students together for a dynamic outdoor sketching experience capturing life in real time.",
+      type: "Event",
+      status: "completed"
+    },
+
+    {
+      date: "2025-04-23",
+      title: "Solo Shade",
+      description: "Soloshade, a signature Artistry Club event, celebrated the power of simplicity by challenging artists to create impactful works using just one color.",
+      type: "Event",
+      status: "completed"
+    },
+    {
       date: "2025-04-14",
-      title: "Draw with Comali2",
+      title: "Draw with Comali Season 2",
       description: "Draw With Comali was a vibrant and engaging event that seamlessly combined creativity,entertainment, and teamwork",
-      type: "Workshop",
+      type: "Event",
       status: "Completed"
     },
 

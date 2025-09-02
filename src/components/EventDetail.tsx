@@ -53,6 +53,14 @@ const eventData: Record<
       "/public/images/4.World Mental Health Day/IMG_0646.JPG"
     ],
   },
+  "Inkspire": {
+  description: `Inkspire, hosted annually in the month of October by the REC Artistry Club, is a vibrant celebration of artistic expression and creativity. The event serves as a platform for students across disciplines to showcase their talents through a variety of art forms. From compelling illustrations to thought-provoking designs, Inkspire captures the imagination and emotions of its participants. With engaging themes and enthusiastic participation, the contest fosters a culture of inspiration, inclusivity, and artistic excellence within the college community.`,
+  images: ["/public/images/6.Pictopia/DSC_0004.JPG",
+    "/public/images/6.Pictopia/DSC_0055.JPG",
+    "/public/images/6.Pictopia/NBP_0015.JPG",
+    "/public/images/6.Pictopia/NBP_0040.JPG"
+  ],
+},
   "Pictopia": {
   description: `Pictopia was an exciting and interactive art-based game 
     that brought together creativity, teamwork, and fun. 
@@ -92,32 +100,15 @@ const eventData: Record<
   ],
 },
 
-"ART ODYSSEY EPISODE 2 - MANDALA ART": {
-  description: `The second episode of Art Odyssey focused on Mandala Art, 
-    an intricate and meditative form of artistic expression. 
-    Participants were guided through patterns, symmetry, 
-    and techniques that encouraged mindfulness and 
-    creativity. The workshop provided a calming yet 
-    inspiring experience for all.`,
-  images: ["/images/mandala1.jpg", "/images/mandala2.jpg"],
-},
-
-"ART ODYSSEY EP-3 COMIC SKETCH": {
-  description: `Episode 3 of Art Odyssey explored the world of comic sketching. 
-    Students learned how to bring characters and stories to life 
-    through expressive sketches, storytelling, and humor. 
-    The workshop encouraged imagination while providing 
-    practical tips on comic art and visual narration.`,
-  images: ["/images/comic1.jpg", "/images/comic2.jpg"],
-},
-
-"ART ODYSSEY EP-4 CROCHET": {
-  description: `Episode 4 of Art Odyssey introduced participants to the art of crochet. 
-    The session covered basic techniques, stitches, and the 
-    creative possibilities of crafting with yarn. The hands-on 
-    workshop allowed students to create unique crochet pieces, 
-    fostering patience, focus, and creativity.`,
-  images: ["/images/crochet1.jpg", "/images/crochet2.jpg"],
+"We Sketch Season 2 Episode 1": {
+  description: `WeSketch returned with Season 2, Episode 1, organized by the Artistry Club in collaboration with Urban Sketchers Chennai—a vibrant community that brings together artists from across the city to sketch life as they see it, in real time.
+This episode took place at the iconic Labour Statue on Marina Beach, where college students gathered for a unique outdoor sketching experience. Surrounded by the lively energy of the beach and the symbolic presence of the statue, participants observed and illustrated the scenes around them—from the towering monument and beachgoers to the everyday charm of Marina's surroundings.`,
+  images: ["/public/images/8.Swarang/IMG_5202.JPG",
+    "/public/images/8.Swarang/IMG_3998.JPG",
+    "/public/images/8.Swarang/IMG_8142.JPG",
+    "/public/images/8.Swarang/IMG_8258.JPG",
+    "/public/images/8.Swarang/IMG_8343.JPG"
+  ],
 },
 
 "AARADHYA": {
@@ -146,8 +137,32 @@ The day highlighted pride in cultural heritage and togetherness.`,
     "/public/images/11.Ethnic Day 2025/MNB_0389.jpg"
   ],
 },
+"Pennoviyam": {
+  description: `The Artistry Club, in collaboration with the Yaazh Tamil Mandram, organized Pennoviyam, an art competition in celebration of International Women’s Day. Centered on iconic women characters from Tamil literature, the event encouraged participants to portray their strength and grace through visual storytelling. On 22nd March, the selected artworks were exhibited at the Hut Cafe, transforming the space into a vibrant gallery. The exhibition drew admiration from students and faculty, celebrating the richness of Tamil culture and the impactful presence of women in literature through art.`,
+  images: ["/public/images/11.Ethnic Day 2025/MNB_0414.jpg",
+    "/public/images/11.Ethnic Day 2025/IMG_8384_1.JPG",
+    "/public/images/11.Ethnic Day 2025/IMG_8417_1.JPG",
+    "/public/images/11.Ethnic Day 2025/MNB_0389.jpg"
+  ],
+},
+"We Sketch Season 2 Episode 2": {
+  description: `WeSketch Season 2 – Episode 2, organized by the Artistry Club, was a refreshing and creative gathering held at the beautiful Six Senses Garden within our college campus. Surrounded by greenery and calm, students came together with sketchbooks in hand, ready to capture the inspiring views around them.Each participant immersed themselves in the environment, sketching scenes that caught their eye—from vibrant plants and serene pathways to architectural elements and quiet corners of nature. The peaceful setting sparked creativity and allowed everyone to express their unique perspectives through art.`,
+  images: ["/public/images/11.Ethnic Day 2025/MNB_0414.jpg",
+    "/public/images/11.Ethnic Day 2025/IMG_8384_1.JPG",
+    "/public/images/11.Ethnic Day 2025/IMG_8417_1.JPG",
+    "/public/images/11.Ethnic Day 2025/MNB_0389.jpg"
+  ],
+},
+"Solo Shade": {
+  description: `Soloshade, a signature event by the Artistry Club, returned with a bold twist on traditional art-making—challenging participants to create powerful pieces using just one color. Set in a vibrant and energetic atmosphere, the event sparked excitement as each artist was randomly assigned a single shade, from deep blues and bright yellows to moody purples and earthy greens.With only one color in their toolkit, participants had to think beyond the usual and dive into the nuances of tone, shade, and contrast. Artists filled their canvases and pages with expressions that were bold, emotional, and rich with creativity—each piece telling a unique story through a singular hue. The event celebrated the power of simplicity, proving that even within boundaries, creativity knows no limits.`,
+  images: ["/public/images/11.Ethnic Day 2025/MNB_0414.jpg",
+    "/public/images/11.Ethnic Day 2025/IMG_8384_1.JPG",
+    "/public/images/11.Ethnic Day 2025/IMG_8417_1.JPG",
+    "/public/images/11.Ethnic Day 2025/MNB_0389.jpg"
+  ],
+},
 
-"Draw with Comali2": {
+"Draw with Comali Season 2": {
   description: `Draw With Comali2 was a vibrant and engaging event that 
     seamlessly combined creativity, entertainment, and teamwork. 
     Participants took on fun challenges that tested their artistic 
