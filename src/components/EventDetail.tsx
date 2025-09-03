@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import InteractiveCanvas from "./InteractiveCanvas"; // ✅ new particle canvas
+import { V } from "node_modules/framer-motion/dist/types.d-Cjd591yU";
 
 // ✅ event details with description + images
 const eventData: Record<
@@ -13,6 +14,21 @@ const eventData: Record<
     description:
       `The Madras Day Art Contest celebrated the rich cultural heritage, history, and spirit of Chennai through the creative expressions of young artists. Participants from various disciplines showcased their talents by creating artworks that captured the essence of the city — from its iconic landmarks and traditions to its vibrant modern life. The event received an enthusiastic response, reflecting the deep connection people feel toward Chennai and its evolving identity. Every piece submitted highlighted the artists' perspectives, their love for the city, and their ability to translate emotion into visual form`,
     images: ["/images/madras_day_artcontest/mdac1.jpg",
+      "/images/madras_day_artcontest/mdac2.jpg",
+      "/images/madras_day_artcontest/mdac3.jpg",
+      "/images/madras_day_artcontest/mdac4.jpg",
+      "/images/madras_day_artcontest/mdac5.jpg",
+      "/images/madras_day_artcontest/mdac6.jpg",
+      "/images/madras_day_artcontest/mdac7.jpg",
+      "/images/madras_day_artcontest/mdac8.jpg",
+      "/images/madras_day_artcontest/mdac9.jpg",
+      "/images/madras_day_artcontest/mdac10.jpg",
+      "/images/madras_day_artcontest/mdac11.jpg",
+      "/images/madras_day_artcontest/mdac12.jpg",
+      "/images/madras_day_artcontest/mdac13.jpg",
+      "/images/madras_day_artcontest/mdac14.jpg",
+
+      
     ],
   },
   "ARTSY’24": {
@@ -39,16 +55,18 @@ const eventData: Record<
         Coordinators for Urban Sketchers, as chief guests, who shared inspiring insights on creativity
         and community engagement. The ceremony included badge distribution, certificate
         presentations, and a networking session, fostering connections and celebrating contributions.`,
-    images: ["/public/images/3.Investiture Ceremony/ic1.JPG",
-      "/public/images/3.Investiture Ceremony/ic2.JPG",
-      "/public/images/3.Investiture Ceremony/ic3.JPG",
-      "/public/images/3.Investiture Ceremony/ic4.JPG",
-      "/public/images/3.Investiture Ceremony/ic5.JPG",
-      "/public/images/3.Investiture Ceremony/ic6.JPG",
-      "/public/images/3.Investiture Ceremony/ic7.JPG",
-      "/public/images/3.Investiture Ceremony/ic8.JPG",
-      "/public/images/3.Investiture Ceremony/ic9.JPG",
-      "/public/images/3.Investiture Ceremony/ic10.JPG"
+    images: ["images/investitureceremony/ic1.JPG",
+      "images/investitureceremony/ic2.JPG",
+      "images/investitureceremony/ic3.JPG",
+      "images/investitureceremony/ic4.JPG",
+      "images/investitureceremony/ic5.JPG",
+      "images/investitureceremony/ic6.JPG",
+      "images/investitureceremony/ic7.JPG",
+      "images/investitureceremony/ic8.JPG",
+      "images/investitureceremony/ic9.JPG",
+      "images/investitureceremony/ic10.JPG",
+      "images/investitureceremony/ic11.JPG",
+      "images/investitureceremony/ic12.JPG",
 
     ],
   },
@@ -60,19 +78,41 @@ const eventData: Record<
       including a Mental Health Art Display, Awareness Ribbons, Affirmation Stickers, Sensory
       Activities, and Stress-Relieving Games. A Five-Meter Gratitude Banner encouraged students and
       faculty to share thoughts on mental health.`,
-    images: ["/public/images/4.World Mental Health Day/IMG_2628.JPG",
-      "/public/images/4.World Mental Health Day/IMG_1275.JPG",
-      "/public/images/4.World Mental Health Day/IMG_1476.JPG",
-      "/public/images/4.World Mental Health Day/IMG_2676.JPG",
-      "/public/images/4.World Mental Health Day/IMG_0646.JPG"
+    images: ["images/worldmentalhealthday/wmhd1.JPG",
+      "images/worldmentalhealthday/wmhd2.JPG",
+      "images/worldmentalhealthday/wmhd3.JPG",
+      "images/worldmentalhealthday/wmhd4.JPG",
+      "images/worldmentalhealthday/wmhd5.JPG",
+      "images/worldmentalhealthday/wmhd6.JPG",
+      "images/worldmentalhealthday/wmhd7.JPG",
+      "images/worldmentalhealthday/wmhd8.JPG",
+      "images/worldmentalhealthday/wmhd9.JPG",
+      "images/worldmentalhealthday/wmhd10.JPG",
+      "images/worldmentalhealthday/wmhd11.JPG",
+      "images/worldmentalhealthday/wmhd12.JPG",
+      "images/worldmentalhealthday/wmhd13.JPG",
+      "images/worldmentalhealthday/wmhd14.JPG",
+      "images/worldmentalhealthday/wmhd15.JPG",
+      "images/worldmentalhealthday/wmhd16.JPG",
+      "images/worldmentalhealthday/wmhd17.JPG",
+
     ],
   },
   "Inkspire": {
   description: `Inkspire, hosted annually in the month of October by the REC Artistry Club, is a vibrant celebration of artistic expression and creativity. The event serves as a platform for students across disciplines to showcase their talents through a variety of art forms. From compelling illustrations to thought-provoking designs, Inkspire captures the imagination and emotions of its participants. With engaging themes and enthusiastic participation, the contest fosters a culture of inspiration, inclusivity, and artistic excellence within the college community.`,
-  images: ["/public/images/6.Pictopia/DSC_0004.JPG",
-    "/public/images/6.Pictopia/DSC_0055.JPG",
-    "/public/images/6.Pictopia/NBP_0015.JPG",
-    "/public/images/6.Pictopia/NBP_0040.JPG"
+  images: ["/images/inkspire/ink1.JPG",
+    "/images/inkspire/ink2.JPG",
+    "/images/inkspire/ink3.JPG",
+    "/images/inkspire/ink4.JPG",
+    "/images/inkspire/ink5.JPG",
+    "/images/inkspire/ink6.JPG",
+    "/images/inkspire/ink7.JPG",
+    "/images/inkspire/ink8.JPG",
+    "/images/inkspire/ink9.JPG",
+    "/images/inkspire/ink10.JPG",
+    "/images/inkspire/ink11.JPG",
+    "/images/inkspire/ink12.JPG",
+    "/images/inkspire/ink13.JPG",
   ],
 },
   "Pictopia": {
@@ -81,10 +121,19 @@ const eventData: Record<
     Participants engaged in dynamic challenges where artistic skills 
     and quick thinking went hand in hand, creating an atmosphere 
     filled with energy, laughter, and collaboration.`,
-  images: ["/public/images/6.Pictopia/DSC_0004.JPG",
-    "/public/images/6.Pictopia/DSC_0055.JPG",
-    "/public/images/6.Pictopia/NBP_0015.JPG",
-    "/public/images/6.Pictopia/NBP_0040.JPG"
+  images: ["/images/pictopia/pictopia1.JPG",
+    "/images/pictopia/pictopia2.JPG",
+    "/images/pictopia/pictopia3.JPG",
+    "/images/pictopia/pictopia4.JPG",
+    "/images/pictopia/pictopia5.JPG",
+    "/images/pictopia/pictopia6.JPG",
+    "/images/pictopia/pictopia7.JPG",
+    "/images/pictopia/pictopia8.JPG",
+    "/images/pictopia/pictopia9.JPG",
+    "/images/pictopia/pictopia10.JPG",
+    "/images/pictopia/pictopia11.JPG",
+    "/images/pictopia/pictopia12.JPG",
+
   ],
 },
 
