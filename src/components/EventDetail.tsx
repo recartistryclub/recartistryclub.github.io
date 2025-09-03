@@ -12,7 +12,7 @@ const eventData: Record<
   "Madras Day Art Contest": {
     description:
       `The Madras Day Art Contest celebrated the rich cultural heritage, history, and spirit of Chennai through the creative expressions of young artists. Participants from various disciplines showcased their talents by creating artworks that captured the essence of the city — from its iconic landmarks and traditions to its vibrant modern life. The event received an enthusiastic response, reflecting the deep connection people feel toward Chennai and its evolving identity. Every piece submitted highlighted the artists' perspectives, their love for the city, and their ability to translate emotion into visual form`,
-    images: ["/public/images/1.Madras Day Art Contest/mdac1.jpg",
+    images: ["/public/images/1.Madras_Day_ArtContest/mdac1.jpg",
       "/public/images/1.Madras Day Art Contest/mdac2.jpg",
       "/public/images/1.Madras Day Art Contest/mdac3.jpg",
       "/public/images/1.Madras Day Art Contest/mdac4.jpg",
@@ -29,10 +29,16 @@ const eventData: Record<
     description:
       "Artsy’24’s Art Exhibition, a Signature Event transformed the Basketball Court and Hut Café into a vibrant hub of creativity on September 14th, from 9:00 AM to 1:20 PM. The event buzzed with energy as students, artists, and visitors explored an impressive display of artistic talent, featuring mandalas, intricate lettering, song sketches, anime art, origami, and frame portraits.Special exhibits, including Madras Day-themed artwork and meticulously crafted portraits,added depth to the showcase. A key moment of the exhibition was the visit from Principal Dr.S.N. Murugesan and Dean of Academics Dr. V. Murali Bhaskaran, who engaged with the artists and appreciated the creativity on display.",
     images: [
-      "/public/images/2.Artsy'24/DSC_0224.JPG",
-      "/public/images/2.Artsy'24/DSC_0243.JPG",
-      "/public/images/2.Artsy'24/DSC_0037.JPG",
-      "/public/images/2.Artsy'24/DSC_0180.JPG"
+      "/public/images/2.Artsy'24/artsy1",
+      "/public/images/2.Artsy'24/artsy2",
+      "/public/images/2.Artsy'24/artsy3",
+      "/public/images/2.Artsy'24/artsy4",
+      "/public/images/2.Artsy'24/artsy5",
+      "/public/images/2.Artsy'24/artsy6",
+      "/public/images/2.Artsy'24/artsy7",
+      "/public/images/2.Artsy'24/artsy8",
+      "/public/images/2.Artsy'24/artsy9",
+      "/public/images/2.Artsy'24/artsy10",
     ],
   },
   "INVESTITURE CEREMONY": {
@@ -43,10 +49,17 @@ const eventData: Record<
         Coordinators for Urban Sketchers, as chief guests, who shared inspiring insights on creativity
         and community engagement. The ceremony included badge distribution, certificate
         presentations, and a networking session, fostering connections and celebrating contributions.`,
-    images: ["/public/images/3.Investiture Ceremony/DSC_0304.JPG",
-      "/public/images/3.Investiture Ceremony/DSC_0408.JPG",
-      "/public/images/3.Investiture Ceremony/DSC_0357.JPG",
-      "/public/images/3.Investiture Ceremony/DSC_0369.JPG"
+    images: ["/public/images/3.Investiture Ceremony/ic1.JPG",
+      "/public/images/3.Investiture Ceremony/ic2.JPG",
+      "/public/images/3.Investiture Ceremony/ic3.JPG",
+      "/public/images/3.Investiture Ceremony/ic4.JPG",
+      "/public/images/3.Investiture Ceremony/ic5.JPG",
+      "/public/images/3.Investiture Ceremony/ic6.JPG",
+      "/public/images/3.Investiture Ceremony/ic7.JPG",
+      "/public/images/3.Investiture Ceremony/ic8.JPG",
+      "/public/images/3.Investiture Ceremony/ic9.JPG",
+      "/public/images/3.Investiture Ceremony/ic10.JPG"
+
     ],
   },
   "World Mental Health Day": {
