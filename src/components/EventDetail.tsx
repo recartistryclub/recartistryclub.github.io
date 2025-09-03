@@ -12,7 +12,7 @@ const eventData: Record<
   "Madras Day Art Contest": {
     description:
       `The Madras Day Art Contest celebrated the rich cultural heritage, history, and spirit of Chennai through the creative expressions of young artists. Participants from various disciplines showcased their talents by creating artworks that captured the essence of the city — from its iconic landmarks and traditions to its vibrant modern life. The event received an enthusiastic response, reflecting the deep connection people feel toward Chennai and its evolving identity. Every piece submitted highlighted the artists' perspectives, their love for the city, and their ability to translate emotion into visual form`,
-    images: ["/public/images/madras_day_artcontest/mdac1.jpg",
+    images: ["/images/madras_day_artcontest/mdac1.jpg",
     ],
   },
   "ARTSY’24": {
