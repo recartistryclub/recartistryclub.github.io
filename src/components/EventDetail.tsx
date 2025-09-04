@@ -338,42 +338,44 @@ const EventDetail = () => {
 
   
       {/* RIGHT SIDE - IMAGE GALLERY */}
-    <motion.div
-      initial={{ opacity: 0, x: 40 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.8 }}
-      className="relative w-full max-w-[550px] aspect-square overflow-hidden rounded-2xl z-20" // ✅ square insta style
-    >
-      {event.images.map((src, i) => (
-        <motion.img
-          key={i}
-          src={src}
-          alt={`${decodedTitle} ${i + 1}`}
-          className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl glass-card"
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{
-            opacity: i === currentIndex ? 1 : 0,
-            scale: i === currentIndex ? 1 : 1.05,
-          }}
-          transition={{ duration: 0.8 }}
-          whileHover={{ scale: 1.03 }}
-        />
-      ))}
+    {/* RIGHT SIDE - IMAGE GALLERY (Portrait style) */}
+<motion.div
+  initial={{ opacity: 0, x: 40 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  className="relative w-full max-w-[400px] h-[550px] overflow-hidden rounded-2xl z-20" // ✅ portrait ratio
+>
+  {event.images.map((src, i) => (
+    <motion.img
+        key={i}
+        src={src}
+        alt={`${decodedTitle} ${i + 1}`}
+        className="absolute top-0 left-0 w-full h-full object-contain rounded-2xl bg-black" 
+        // ✅ object-contain keeps full photo visible, bg-black fills empty space
+        initial={{ opacity: 0, scale: 1.05 }}
+        animate={{
+          opacity: i === currentIndex ? 1 : 0,
+          scale: i === currentIndex ? 1 : 1.02,
+        }}
+        transition={{ duration: 0.8 }}
+        whileHover={{ scale: 1.02 }}
+      />
+    ))}
 
-      {/* Navigation buttons */}
-      <button
-        onClick={prevImage}
-        className="absolute top-1/2 left-3 -translate-y-1/2 bg-black/50 p-2 rounded-full text-white hover:bg-black/70 transition"
-      >
-        <ChevronLeft size={24} />
-      </button>
-      <button
-        onClick={nextImage}
-        className="absolute top-1/2 right-3 -translate-y-1/2 bg-black/50 p-2 rounded-full text-white hover:bg-black/70 transition"
-      >
-        <ChevronRight size={24} />
-      </button>
-    </motion.div>
+    {/* Navigation buttons */}
+    <button
+      onClick={prevImage}
+      className="absolute top-1/2 left-3 -translate-y-1/2 bg-black/50 p-2 rounded-full text-white hover:bg-black/70 transition"
+    >
+      <ChevronLeft size={24} />
+    </button>
+    <button
+      onClick={nextImage}
+      className="absolute top-1/2 right-3 -translate-y-1/2 bg-black/50 p-2 rounded-full text-white hover:bg-black/70 transition"
+    >
+      <ChevronRight size={24} />
+    </button>
+  </motion.div>
 
     </section>
   );
