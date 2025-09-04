@@ -127,7 +127,7 @@ const eventData: Record<
   ],
 },
 
-"Art Odyssey EP 1 DIGITAL ART": {
+"Art Odyssey Season 1": {
   description: `The first episode of the Art Odyssey series introduced 
     students to the fundamentals of digital art. The workshop 
     covered essential concepts and techniques, providing 
@@ -135,7 +135,12 @@ const eventData: Record<
     explored the creative possibilities of blending 
     technology with art, laying the foundation for their 
     future digital creations.`,
-  images: ["/images/digital1.jpg", "/images/digital2.jpg"],
+  images: ["/public/images/artodysseyseason1/ao1.png",
+    "/public/images/artodysseyseason1/ao2.png",
+    "/public/images/artodysseyseason1/ao3.png",
+    "/public/images/artodysseyseason1/ao4.png",
+    "/public/images/artodysseyseason1/ao5.png",
+  ],
 },
 
 "Swarang": {

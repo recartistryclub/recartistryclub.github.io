@@ -8,7 +8,7 @@ const upcomingEvents = [
 📍 From sketches to origami, mandalas to modern art – your canvas has no limits.
 🌟 Step in, express yourself, and let your artistry inspire the community.
 💫 Join us as Artsy’25 becomes the stage for your unique talent and vision!`,
-    image: "/images/Upcoming events/artsy25.jpg", // ✅ Correct path (public/images)
+    image: "/images/upcommingevents/artsy25.jpg", // ✅ Correct path (public/images)
     formLink:
       "https://docs.google.com/forms/d/e/1FAIpQLScLxdqSlBe5-rMlo_4JnBgL9hZN212rwFwdQCwmXifmEGItjQ/viewform?usp=dialog",
   },
