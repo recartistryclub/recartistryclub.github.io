@@ -56,8 +56,9 @@ const UpcomingEvents = () => {
                 <img
                   src={event.image}
                   alt={event.title}
-                  className="rounded-xl object-cover w-[350px] h-[350px] md:w-[400px] md:h-[400px]"
+                  className="rounded-xl object-contain max-w-[400px] w-full h-auto bg-black"
                 />
+
               </div>
             </motion.div>
           ))}
