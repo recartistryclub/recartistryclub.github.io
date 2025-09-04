@@ -127,7 +127,7 @@ const eventData: Record<
   ],
 },
 
-"Art Odyssey Season 1": {
+"Art Odyssey Season 1 ": {
   description: `The first episode of the Art Odyssey series introduced 
     students to the fundamentals of digital art. The workshop 
     covered essential concepts and techniques, providing 
@@ -140,6 +140,8 @@ const eventData: Record<
     "/public/images/artodysseyseason1/ao3.png",
     "/public/images/artodysseyseason1/ao4.png",
     "/public/images/artodysseyseason1/ao5.png",
+    "/public/images/artodysseyseason1/ao6.png",
+    "/public/images/artodysseyseason1/ao7.png",
   ],
 },
 
@@ -150,11 +152,21 @@ const eventData: Record<
     and patriotism through art, music, and cultural interaction. 
     Students and children came together to share joy, 
     creativity, and community spirit.`,
-  images: ["/public/images/8.Swarang/IMG_5202.JPG",
-    "/public/images/8.Swarang/IMG_3998.JPG",
-    "/public/images/8.Swarang/IMG_8142.JPG",
-    "/public/images/8.Swarang/IMG_8258.JPG",
-    "/public/images/8.Swarang/IMG_8343.JPG"
+  images: ["/public/images/swarang/swarang1.JPG",
+    "/public/images/swarang/swarang2.JPG",
+    "/public/images/swarang/swarang3.JPG",
+    "/public/images/swarang/swarang4.JPG",
+    "/public/images/swarang/swarang5.JPG",
+    "/public/images/swarang/swarang6.JPG",
+    "/public/images/swarang/swarang7.JPG",
+    "/public/images/swarang/swarang8.JPG",
+    "/public/images/swarang/swarang9.JPG",
+    "/public/images/swarang/swarang10.JPG",
+    "/public/images/swarang/swarang11.JPG",
+    "/public/images/swarang/swarang12.JPG",
+    "/public/images/swarang/swarang13.JPG",
+    "/public/images/swarang/swarang14.JPG",
+    "/public/images/swarang/swarang15.JPG",
   ],
 },
 
