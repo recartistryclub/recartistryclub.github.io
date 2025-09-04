@@ -25,25 +25,21 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    {
-      icon: "📍",
-      title: "Location",
-      details: "123 Creative Street, Art District"
-    },
+
     {
       icon: "📧",
       title: "Email",
-      details: "hello@artistryclub.com"
+      details: "artistryclub@rajalakshmi.edu.in"
     },
     {
       icon: "📞",
-      title: "Phone",
-      details: "+1 (555) 123-4567"
+      title: "President Lakshanya",
+      details: "9025410036"
     },
     {
-      icon: "🕒",
-      title: "Hours",
-      details: "Mon-Fri: 9AM-6PM"
+      icon: "📞",
+      title: "Vice President Tarun A D",
+      details: "8438954505"
     }
   ];
 
