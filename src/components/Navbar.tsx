@@ -70,13 +70,17 @@ const Navbar = () => {
         </div>
 
         {/* Join Club Button */}
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="glass-card px-6 py-2 text-sm font-medium hover-lift text-black"
-        >
-          Join Club
-        </motion.button>
+        <motion.a
+            href="https://linktr.ee/rec_artistry"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="glass-card px-6 py-2 text-sm font-medium hover-lift text-black"
+          >
+            Join Club
+        </motion.a>
+
       </div>
     </motion.nav>
   );
