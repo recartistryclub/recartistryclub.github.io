@@ -173,11 +173,13 @@ const eventData: Record<
 "We Sketch Season 2 Episode 1": {
   description: `WeSketch returned with Season 2, Episode 1, organized by the Artistry Club in collaboration with Urban Sketchers Chennai—a vibrant community that brings together artists from across the city to sketch life as they see it, in real time.
 This episode took place at the iconic Labour Statue on Marina Beach, where college students gathered for a unique outdoor sketching experience. Surrounded by the lively energy of the beach and the symbolic presence of the statue, participants observed and illustrated the scenes around them—from the towering monument and beachgoers to the everyday charm of Marina's surroundings.`,
-  images: ["/images/8.Swarang/IMG_5202.JPG",
-    "/images/8.Swarang/IMG_3998.JPG",
-    "/images/8.Swarang/IMG_8142.JPG",
-    "/images/8.Swarang/IMG_8258.JPG",
-    "/images/8.Swarang/IMG_8343.JPG"
+  images: ["/images/wesketchseason2episode1/wkep1.JPG",
+    "/images/wesketchseason2episode1/wkep2.jpg",
+    "/images/wesketchseason2episode1/wkep3.jpg",
+    "/images/wesketchseason2episode1/wkep4.jpg",
+    "/images/wesketchseason2episode1/wkep5.jpg",
+    "/images/wesketchseason2episode1/wkep6.png",
+    "/images/wesketchseason2episode1/wkep7.png"
   ],
 },
 
@@ -187,10 +189,18 @@ This episode took place at the iconic Labour Statue on Marina Beach, where colle
     the women faculty members of Rajalakshmi Engineering College 
     for their invaluable contributions. It was a day of respect, 
     recognition, and celebration of women’s strength and achievements.`,
-  images: ["/public/images/10.Aaradhya/IMG_0031.JPG",
-    "/public/images/10.Aaradhya/IMG_6284.JPG",
-    "/public/images/10.Aaradhya/IMG_6299.JPG",
-    "/public/images/10.Aaradhya/IMG_0268.JPG",
+  images: ["/images/aaradhya/aaradhya1.JPG",
+    "/images/aaradhya/aaradhya2.JPG",
+    "/images/aaradhya/aaradhya3.JPG",
+    "/images/aaradhya/aaradhya4.JPG",
+    "/images/aaradhya/aaradhya5.JPG",
+    "/images/aaradhya/aaradhya6.JPG",
+    "/images/aaradhya/aaradhya7.jpg",
+    "/images/aaradhya/aaradhya8.jpg",
+    "/images/aaradhya/aaradhya9.jpg",
+    "/images/aaradhya/aaradhya10.jpg",
+    "/images/aaradhya/aaradhya11.jpg",
+    "/images/aaradhya/aaradhya12.jpg"
   ],
 },
 
@@ -201,34 +211,57 @@ This episode took place at the iconic Labour Statue on Marina Beach, where colle
     with joy, laughter, and vibrant festivities as students captured 
     memorable moments through photos and cultural programs. 
 The day highlighted pride in cultural heritage and togetherness.`,
-  images: ["/public/images/11.Ethnic Day 2025/MNB_0414.jpg",
-    "/public/images/11.Ethnic Day 2025/IMG_8384_1.JPG",
-    "/public/images/11.Ethnic Day 2025/IMG_8417_1.JPG",
-    "/public/images/11.Ethnic Day 2025/MNB_0389.jpg"
+  images: ["images/ethnicday2025/ed1.JPG",
+    "/images/ethnicday2025/ed2.JPG",
+    "/images/ethnicday2025/ed3.JPG",
+    "/images/ethnicday2025/ed9.JPG",
   ],
 },
 "Pennoviyam": {
   description: `The Artistry Club, in collaboration with the Yaazh Tamil Mandram, organized Pennoviyam, an art competition in celebration of International Women’s Day. Centered on iconic women characters from Tamil literature, the event encouraged participants to portray their strength and grace through visual storytelling. On 22nd March, the selected artworks were exhibited at the Hut Cafe, transforming the space into a vibrant gallery. The exhibition drew admiration from students and faculty, celebrating the richness of Tamil culture and the impactful presence of women in literature through art.`,
-  images: ["/public/images/11.Ethnic Day 2025/MNB_0414.jpg",
-    "/public/images/11.Ethnic Day 2025/IMG_8384_1.JPG",
-    "/public/images/11.Ethnic Day 2025/IMG_8417_1.JPG",
-    "/public/images/11.Ethnic Day 2025/MNB_0389.jpg"
+  images: ["/images/pennoviyam/po1.jpg",
+    "/images/pennoviyam/po2.jpg",
+    "/images/pennoviyam/po3.jpg",
+    "/images/pennoviyam/po4.jpg",
+    "/images/pennoviyam/po5.jpg",
+    "/images/pennoviyam/po6.jpg",
+    "/images/pennoviyam/po7.jpg",
+    "/images/pennoviyam/po8.jpg",
+    "/images/pennoviyam/po9.jpg",
+    "/images/pennoviyam/po10.jpg",
   ],
 },
 "We Sketch Season 2 Episode 2": {
   description: `WeSketch Season 2 – Episode 2, organized by the Artistry Club, was a refreshing and creative gathering held at the beautiful Six Senses Garden within our college campus. Surrounded by greenery and calm, students came together with sketchbooks in hand, ready to capture the inspiring views around them.Each participant immersed themselves in the environment, sketching scenes that caught their eye—from vibrant plants and serene pathways to architectural elements and quiet corners of nature. The peaceful setting sparked creativity and allowed everyone to express their unique perspectives through art.`,
-  images: ["/public/images/11.Ethnic Day 2025/MNB_0414.jpg",
-    "/public/images/11.Ethnic Day 2025/IMG_8384_1.JPG",
-    "/public/images/11.Ethnic Day 2025/IMG_8417_1.JPG",
-    "/public/images/11.Ethnic Day 2025/MNB_0389.jpg"
+  images: ["/images/wesketchseason2episode2/w2ep1.JPG",
+    "/images/wesketchseason2episode2/w2ep2.JPG",
+    "/images/wesketchseason2episode2/w2ep3.JPG",
+    "/images/wesketchseason2episode2/w2ep4.JPG",
+    "/images/wesketchseason2episode2/w2ep5.JPG",
+    "/images/wesketchseason2episode2/w2ep6.JPG",
+    "/images/wesketchseason2episode2/w2ep7.JPG",
+    "/images/wesketchseason2episode2/w2ep8.JPG",
+    "/images/wesketchseason2episode2/w2ep9.JPG",
+    "/images/wesketchseason2episode2/w2ep10.JPG",
+    "/images/wesketchseason2episode2/w2ep11.JPG",
+    "/images/wesketchseason2episode2/w2ep12.JPG",
+    "/images/wesketchseason2episode2/w2ep13.JPG",
+    "/images/wesketchseason2episode2/w2ep14.JPG"
+
   ],
 },
 "Solo Shade": {
   description: `Soloshade, a signature event by the Artistry Club, returned with a bold twist on traditional art-making—challenging participants to create powerful pieces using just one color. Set in a vibrant and energetic atmosphere, the event sparked excitement as each artist was randomly assigned a single shade, from deep blues and bright yellows to moody purples and earthy greens.With only one color in their toolkit, participants had to think beyond the usual and dive into the nuances of tone, shade, and contrast. Artists filled their canvases and pages with expressions that were bold, emotional, and rich with creativity—each piece telling a unique story through a singular hue. The event celebrated the power of simplicity, proving that even within boundaries, creativity knows no limits.`,
-  images: ["/public/images/11.Ethnic Day 2025/MNB_0414.jpg",
-    "/public/images/11.Ethnic Day 2025/IMG_8384_1.JPG",
-    "/public/images/11.Ethnic Day 2025/IMG_8417_1.JPG",
-    "/public/images/11.Ethnic Day 2025/MNB_0389.jpg"
+  images: ["/images/soloshade/ss1.JPG",
+    "/images/soloshade/ss2.JPG",
+    "/images/soloshade/ss3.JPG",
+    "/images/soloshade/ss4.JPG",
+    "/images/soloshade/ss5.JPG",
+    "/images/soloshade/ss6.JPG",
+    "/images/soloshade/ss7.JPG",
+    "/images/soloshade/ss8.JPG",
+    "/images/soloshade/ss9.JPG",
+    "/images/soloshade/ss10.JPG"
   ],
 },
 
@@ -238,10 +271,13 @@ The day highlighted pride in cultural heritage and togetherness.`,
     Participants took on fun challenges that tested their artistic 
     skills under humorous twists, creating a lively atmosphere 
     of joy, laughter, and innovation.`,
-  images: ["/public/images/15.Draw with Comali Season 2/IMG_1473.JPG",
-    "/public/images/15.Draw with Comali Season 2/IMG_1522.JPG",
-    "/public/images/15.Draw with Comali Season 2/IMG_1539.JPG",
-    "/public/images/15.Draw with Comali Season 2/IMG_1565.JPG"
+  images: ["/images/drawwithcomaliseason2/dwc1.JPG",
+    "/images/drawwithcomaliseason2/dwc2.JPG",
+    "/images/drawwithcomaliseason2/dwc3.JPG",
+    "/images/drawwithcomaliseason2/dwc4.JPG",
+    "/images/drawwithcomaliseason2/dwc5.JPG",    "/images/drawwithcomaliseason2/dwc6.JPG",
+    "/images/drawwithcomaliseason2/dwc7.JPG"
+
   ],
 },
 
