@@ -13,7 +13,6 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
     console.log('Form submitted:', formData);
   };
 
@@ -25,7 +24,6 @@ const Contact = () => {
   };
 
   const contactInfo = [
-
     {
       icon: "📧",
       title: "Email",
@@ -40,6 +38,17 @@ const Contact = () => {
       icon: "📞",
       title: "Vice President Tarun A D",
       details: "8438954505"
+    }
+  ];
+
+  const communityLinks = [
+    {
+      name: "Instagram",
+      url: "https://www.instagram.com/rec_artistry_?igsh=aXAyMW1kN3RwZXdw"
+    },
+    {
+      name: "WhatsApp",
+      url: "https://chat.whatsapp.com/EwC3XCe3qUJEAGDKmwlcpd"
     }
   ];
 
@@ -132,7 +141,7 @@ const Contact = () => {
             </form>
           </motion.div>
 
-          {/* Contact Info */}
+          {/* Contact Info + Community */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -141,7 +150,7 @@ const Contact = () => {
           >
             <div className="glass-card">
               <h3 className="text-3xl font-bold mb-6 gradient-text">
-                Visit Our Studio
+                Contact
               </h3>
               <p className="text-muted-foreground mb-6">
                 Our creative space is open to all members and visitors. Come explore our workshops, gallery, and community areas.
@@ -170,6 +179,7 @@ const Contact = () => {
               </div>
             </div>
 
+            {/* Join the Community */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -182,9 +192,12 @@ const Contact = () => {
               </p>
               
               <div className="flex space-x-4">
-                {['Instagram', 'YouTube', 'Discord'].map((platform, index) => (
-                  <motion.button
-                    key={platform}
+                {communityLinks.map((link, index) => (
+                  <motion.a
+                    key={link.name}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ scale: 1.1, y: -2 }}
                     whileTap={{ scale: 0.95 }}
                     initial={{ opacity: 0, scale: 0 }}
@@ -192,8 +205,8 @@ const Contact = () => {
                     transition={{ duration: 0.5, delay: 1 + index * 0.1 }}
                     className="px-4 py-2 bg-gradient-secondary text-secondary-foreground rounded-lg font-medium hover-lift"
                   >
-                    {platform}
-                  </motion.button>
+                    {link.name}
+                  </motion.a>
                 ))}
               </div>
             </motion.div>
