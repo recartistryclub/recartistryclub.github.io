@@ -94,9 +94,9 @@ const eventData: Record<
   "Inkspire": {
   description: `Inkspire, hosted annually in the month of October by the REC Artistry Club, is a vibrant celebration of artistic expression and creativity. The event serves as a platform for students across disciplines to showcase their talents through a variety of art forms. From compelling illustrations to thought-provoking designs, Inkspire captures the imagination and emotions of its participants. With engaging themes and enthusiastic participation, the contest fosters a culture of inspiration, inclusivity, and artistic excellence within the college community.`,
   images: ["/images/inkspire/ink1.jpg",
-    "images/inkspire/ink2.jpg",
+    "/images/inkspire/ink2.jpg",
     "/images/inkspire/ink3.jpg",
-    "/images/inkspire/7.jpg",
+    "/images/inkspire/ink7.jpg",
     "/images/inkspire/ink8.jpg",
     "/images/inkspire/ink9.jpg",
     "/images/inkspire/ink10.JPG",
