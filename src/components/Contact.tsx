@@ -5,15 +5,29 @@ import { useRef, useState } from 'react';
 const Contact = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
 
+  const [showPopup, setShowPopup] = useState(false);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
+
+    // Show popup
+    setShowPopup(true);
+
+    // Hide popup after 3 seconds
+    setTimeout(() => {
+      setShowPopup(false);
+    }, 3000);
+
+    // Reset form
+    setFormData({ name: '', email: '', message: '' });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -213,6 +227,18 @@ const Contact = () => {
           </motion.div>
         </div>
       </div>
+
+      {/* Success Popup */}
+      {showPopup && (
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          className="fixed top-5 right-5 bg-green-500 text-white px-6 py-3 rounded-xl shadow-lg"
+        >
+          ✅ Message submitted successfully!
+        </motion.div>
+      )}
     </section>
   );
 };
