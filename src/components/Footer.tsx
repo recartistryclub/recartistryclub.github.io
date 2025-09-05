@@ -1,6 +1,10 @@
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 const Footer = () => {
+  const [showPopup, setShowPopup] = useState(false);
+  const [email, setEmail] = useState("");
+
   const socialLinks = [
     { name: 'Instagram', url: '#', icon: '📷' },
     { name: 'YouTube', url: '#', icon: '🎥' },
@@ -13,6 +17,21 @@ const Footer = () => {
     { name: 'Gallery', href: '#gallery' },
     { name: 'Contact', href: '#contact' }
   ];
+
+  const handleSubscribe = () => {
+    if (!email) return; // prevent empty submissions
+
+    console.log("Subscribed with:", email);
+
+    // Show popup
+    setShowPopup(true);
+
+    // Hide after 3 seconds
+    setTimeout(() => setShowPopup(false), 3000);
+
+    // Reset email input
+    setEmail("");
+  };
 
   return (
     <footer className="relative py-16 mt-20 overflow-hidden">
@@ -104,10 +123,13 @@ const Footer = () => {
             <div className="flex flex-col sm:flex-row gap-3">
               <input
                 type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder="Your email"
                 className="flex-1 px-4 py-3 rounded-xl bg-input border border-border focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
               />
               <motion.button
+                onClick={handleSubscribe}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-6 py-3 bg-gradient-primary text-primary-foreground rounded-xl font-medium hover-lift whitespace-nowrap"
@@ -148,6 +170,18 @@ const Footer = () => {
           </div>
         </motion.div>
       </div>
+
+      {/* Success Popup */}
+      {showPopup && (
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          className="fixed bottom-5 right-5 bg-green-500 text-white px-6 py-3 rounded-xl shadow-lg"
+        >
+          ✅ Subscribed successfully!
+        </motion.div>
+      )}
     </footer>
   );
 };
