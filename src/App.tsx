@@ -9,7 +9,9 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Events from "./components/Events";
 import EventDetail from "./components/EventDetail";
-import UpcomingEvents from "./components/UpcomingEvents"; // ✅ Import
+import UpcomingEvents from "./components/UpcomingEvents"; 
+import OurTeam from "./components/OurTeam"; // ✅ Correct path
+
 
 // ⬅️ Query client
 const queryClient = new QueryClient();
@@ -21,9 +23,7 @@ const App = () => {
         <Toaster />
         <Sonner />
         <BrowserRouter>
-          {/* ✅ Background & global effects wrapper */}
           <div className="relative min-h-screen w-full bg-background overflow-hidden">
-            {/* 🔥 Background/effects */}
             <div className="absolute inset-0 -z-10"></div>
 
             {/* Routes */}
@@ -32,6 +32,7 @@ const App = () => {
               <Route path="/upcoming-events" element={<UpcomingEvents />} />
               <Route path="/events" element={<Events />} />
               <Route path="/events/:title" element={<EventDetail />} />
+              <Route path="/our-team" element={<OurTeam />} /> {/* ✅ New route */}
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>

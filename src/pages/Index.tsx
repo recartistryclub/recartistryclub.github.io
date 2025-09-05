@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import ScrollCanvas from '../components/ScrollCanvas';
 import InteractiveCanvas from '../components/InteractiveCanvas';
 import UpcomingEvents from '../components/UpcomingEvents';
-
+import OurTeam from '../components/OurTeam';  // ✅ Import added
 
 const Index = () => {
   return (
@@ -22,6 +22,7 @@ const Index = () => {
         <About />
         <UpcomingEvents />
         <Events />
+        <OurTeam />   {/* ✅ Added here */}
         <Contact />
         <Footer />
       </div>

@@ -149,7 +149,7 @@ const Footer = () => {
           className="border-t border-border pt-8 mt-12 flex flex-col md:flex-row justify-between items-center text-center md:text-left"
         >
           <p className="text-muted-foreground mb-4 md:mb-0">
-            © 2024 Artistry Club. All rights reserved.
+            © 2025 Artistry Club. All rights reserved.
           </p>
           
           <div className="flex space-x-6 text-sm">
