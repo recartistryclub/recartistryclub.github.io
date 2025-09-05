@@ -53,9 +53,9 @@ const teamData: TeamSection[] = [
   {
     title: "Technical Team",
     members: [
-      { name: "Dinesh N", year: "IV", domain: "Member", photo: "/team/dinesh.jpg" },
-      { name: "Vishnupriya I", year: "III", domain: "Member", photo: "/team/vishnupriya.jpg" },
-      { name: "Harini A", year: "II", domain: "Member", photo: "/team/harini_a.jpg" },
+      { name: "Dinesh N", year: "IV", domain: "Member", photo: "/images/team/dinesh.jpg" },
+      { name: "Vishnupriya I", year: "III", domain: "Member", photo: "/images/team/vishnupriya.jpg" },
+      { name: "Harini A", year: "II", domain: "Member", photo: "/images/team/harini_a.jpg" },
     ],
   },
   {
