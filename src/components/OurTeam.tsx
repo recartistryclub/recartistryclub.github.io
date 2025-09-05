@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 interface TeamMember {
   name: string;
   year: string;
-  domain: string;
-  photo?: string; // optional photo path
+  domain?: string; // domain will be optional (President, Mentor, etc.)
+  photo?: string;
 }
 
 interface TeamSection {
-  title: string;
+  title: string; // Team Name (e.g., "Media Team")
   members: TeamMember[];
 }
 
@@ -28,59 +28,59 @@ const teamData: TeamSection[] = [
   {
     title: "Media Team",
     members: [
-      { name: "Sanjay K", year: "IV", domain: "Member", photo: "/team/sanjay.jpg" },
-      { name: "Vidhya Subramanian", year: "III", domain: "Member", photo: "/team/vidhya.jpg" },
-      { name: "Harishbhuvan", year: "III", domain: "Member", photo: "/team/harishbhuvan.jpg" },
-      { name: "Kalpana", year: "II", domain: "Member", photo: "/team/kalpana.jpg" },
-      { name: "Neha L Sewin", year: "II", domain: "Member", photo: "/team/neha.jpg" },
-      { name: "Doneshwaran", year: "III", domain: "Member", photo: "/team/donesh.jpg" },
-      { name: "Arish R", year: "IV", domain: "Member", photo: "/team/arish.jpg" },
+      { name: "Sanjay K", year: "IV", photo: "/team/sanjay.jpg" },
+      { name: "Vidhya Subramanian", year: "III", photo: "/team/vidhya.jpg" },
+      { name: "Harishbhuvan", year: "III", photo: "/team/harishbhuvan.jpg" },
+      { name: "Kalpana", year: "II", photo: "/team/kalpana.jpg" },
+      { name: "Neha L Sewin", year: "II", photo: "/team/neha.jpg" },
+      { name: "Doneshwaran", year: "III", photo: "/team/donesh.jpg" },
+      { name: "Arish R", year: "IV", photo: "/team/arish.jpg" },
     ],
   },
   {
     title: "Event Management Team",
     members: [
-      { name: "Veronica Regina Paul", year: "III", domain: "Member", photo: "/team/veronica.jpg" },
-      { name: "Agnes Sharmi G M", year: "III", domain: "Member", photo: "/team/agnes.jpg" },
-      { name: "Shanmuga Priya", year: "III", domain: "Member", photo: "/team/priya.jpg" },
-      { name: "Samyuktha K L", year: "II", domain: "Member", photo: "/team/samyuktha.jpg" },
-      { name: "Vaishnavi M", year: "II", domain: "Member", photo: "/team/vaishnavi.jpg" },
-      { name: "Hariprasad", year: "II", domain: "Member", photo: "/team/hariprasad.jpg" },
-      { name: "Aiswarya Lakshmi", year: "II", domain: "Member", photo: "/team/aiswarya.jpg" },
-      { name: "Roshan", year: "II", domain: "Member", photo: "/team/roshan.jpg" },
+      { name: "Veronica Regina Paul", year: "III", photo: "/team/veronica.jpg" },
+      { name: "Agnes Sharmi G M", year: "III", photo: "/team/agnes.jpg" },
+      { name: "Shanmuga Priya", year: "III", photo: "/team/priya.jpg" },
+      { name: "Samyuktha K L", year: "II", photo: "/team/samyuktha.jpg" },
+      { name: "Vaishnavi M", year: "II", photo: "/team/vaishnavi.jpg" },
+      { name: "Hariprasad", year: "II", photo: "/team/hariprasad.jpg" },
+      { name: "Aiswarya Lakshmi", year: "II", photo: "/team/aiswarya.jpg" },
+      { name: "Roshan", year: "II", photo: "/team/roshan.jpg" },
     ],
   },
   {
     title: "Technical Team",
     members: [
-      { name: "Dinesh N", year: "IV", domain: "Member", photo: "/images/team/dinesh.jpg" },
-      { name: "Vishnupriya I", year: "III", domain: "Member", photo: "/images/team/vishnupriya.jpg" },
-      { name: "Harini A", year: "II", domain: "Member", photo: "/images/team/harini_a.jpg" },
+      { name: "Dinesh N", year: "IV", photo: "/images/team/dinesh.jpg" },
+      { name: "Vishnupriya I", year: "III", photo: "/images/team/vishnupriya.jpg" },
+      { name: "Harini A", year: "II", photo: "/images/team/harini_a.jpg" },
     ],
   },
   {
     title: "Design Team",
     members: [
-      { name: "Dharshini V", year: "II", domain: "Member", photo: "/team/dharshini.jpg" },
-      { name: "Jovitha Sheethal B", year: "II", domain: "Member", photo: "/team/jovitha.jpg" },
-      { name: "Harini M", year: "II", domain: "Member", photo: "/team/harini_m.jpg" },
-      { name: "Gayathri Dheivy P B", year: "II", domain: "Member", photo: "/team/gayathri.jpg" },
-      { name: "Indhumathy K", year: "II", domain: "Member", photo: "/team/indhumathy.jpg" },
+      { name: "Dharshini V", year: "II", photo: "/team/dharshini.jpg" },
+      { name: "Jovitha Sheethal B", year: "II", photo: "/team/jovitha.jpg" },
+      { name: "Harini M", year: "II", photo: "/team/harini_m.jpg" },
+      { name: "Gayathri Dheivy P B", year: "II", photo: "/team/gayathri.jpg" },
+      { name: "Indhumathy K", year: "II", photo: "/team/indhumathy.jpg" },
     ],
   },
   {
     title: "Editorial Team",
     members: [
-      { name: "Ramanan K R", year: "IV", domain: "Member", photo: "/team/ramanan.jpg" },
-      { name: "Karishma A", year: "III", domain: "Member", photo: "/team/karishma.jpg" },
-      { name: "Tharun S", year: "II", domain: "Member", photo: "/team/tharun.jpg" },
-      { name: "Poojasri", year: "II", domain: "Member", photo: "/team/pooja.jpg" },
+      { name: "Ramanan K R", year: "IV", photo: "/team/ramanan.jpg" },
+      { name: "Karishma A", year: "III", photo: "/team/karishma.jpg" },
+      { name: "Tharun S", year: "II", photo: "/team/tharun.jpg" },
+      { name: "Poojasri", year: "II", photo: "/team/pooja.jpg" },
     ],
   },
   {
     title: "Data Mining Team",
     members: [
-      { name: "Pradyumna Sagar T", year: "IV", domain: "Member", photo: "/team/pradyumna.jpg" },
+      { name: "Pradyumna Sagar T", year: "IV", photo: "/team/pradyumna.jpg" },
     ],
   },
 ];
@@ -88,7 +88,7 @@ const teamData: TeamSection[] = [
 const OurTeam = () => {
   return (
     <div
-      id="our-team"  // ✅ added for navbar scroll
+      id="our-team"
       className="min-h-screen bg-background text-foreground py-16 px-6"
     >
       <h1 className="text-5xl font-extrabold text-center mb-12 gradient-text">
@@ -125,7 +125,10 @@ const OurTeam = () => {
                     />
                   )}
                   <h3 className="text-xl font-semibold">{member.name}</h3>
-                  <p className="text-sm opacity-70">{member.domain}</p>
+                  {/* ✅ Show role if available, otherwise show team name */}
+                  <p className="text-sm opacity-70">
+                    {member.domain || section.title}
+                  </p>
                   <p className="text-sm font-medium mt-1">Year: {member.year}</p>
                 </motion.div>
               ))}
