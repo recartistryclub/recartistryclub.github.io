@@ -14,7 +14,7 @@ const eventData: Record<
     description:
       `The Madras Day Art Contest celebrated the rich cultural heritage, history, and spirit of Chennai through the creative expressions of young artists. Participants from various disciplines showcased their talents by creating artworks that captured the essence of the city — from its iconic landmarks and traditions to its vibrant modern life. The event received an enthusiastic response, reflecting the deep connection people feel toward Chennai and its evolving identity. Every piece submitted highlighted the artists' perspectives, their love for the city, and their ability to translate emotion into visual form`,
     images: [     "/images/madras_day_artcontest/mdac2.jpg",
-      "/public/images/madras_day_artcontest/mdac4.jpeg",
+      "/images/madras_day_artcontest/mdac4.jpeg",
       "/images/madras_day_artcontest/mdac8.jpg",
       "/images/madras_day_artcontest/mdac9.jpeg",
       "/images/madras_day_artcontest/mdac11.jpg",
@@ -209,10 +209,10 @@ This episode took place at the iconic Labour Statue on Marina Beach, where colle
     with joy, laughter, and vibrant festivities as students captured 
     memorable moments through photos and cultural programs. 
 The day highlighted pride in cultural heritage and togetherness.`,
-  images: ["/public/images/ethnicday2025/ed1.JPG",
+  images: ["/images/ethnicday2025/ed1.JPG",
     "/images/ethnicday2025/ed2.JPG",
     "/images/ethnicday2025/ed3.JPG",
-    "/images/ethnicday2025/ed9.JPG",
+    "/images/ethnicday2025/ed9.png",
   ],
 },
 "Pennoviyam": {
