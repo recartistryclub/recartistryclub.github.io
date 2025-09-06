@@ -71,7 +71,7 @@ const teamData: TeamSection[] = [
   {
     title: "Editorial Team",
     members: [
-      { name: "Ramanan K R", year: "IV", photo: "/public/images/team/ramanan.JPG"},
+      { name: "Ramanan K R", year: "IV", photo: "/images/team/ramanan.JPG"},
       { name: "Karishma A", year: "III", photo: "/images/team/karishma.jpg" },
       { name: "Tharun S", year: "II", photo: "/images/team/tharun.jpg" },
       { name: "Poojasri", year: "II", photo: "/images/team/poojasri.png" },
